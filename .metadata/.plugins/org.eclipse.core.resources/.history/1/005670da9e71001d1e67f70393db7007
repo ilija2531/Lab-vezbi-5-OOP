@@ -1,0 +1,13 @@
+package zadaca8;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Glavna {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

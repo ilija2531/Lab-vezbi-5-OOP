@@ -1,0 +1,35 @@
+package zadaca7;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> mejl = new ArrayList<>();
+		mejl.add("mail01@yahoo.com");
+		mejl.add("mail02@yahoo.com");
+		mejl.add("mail03@yahoo.com");
+		mejl.add("mail04@yahoo.com");
+		mejl.add("mail05@yahoo.com");
+		mejl.add("mail06@yahoo.com");
+		mejl.add("mail07@yahoo.com");
+		mejl.add("mail08@yahoo.com");
+		mejl.add("mail09@yahoo.com");
+		mejl.add("mail10@yahoo.com");
+		mejl.add("mail1q@yahoo.com");
+		mejl.add("mail12@yahoo.com");
+		mejl.add("mail13@yahoo.com");
+		mejl.add("mail14@yahoo.com");
+		mejl.add("mail15@yahoo.com");
+		mejl.add("mail16@yahoo.com");
+		mejl.add("mail17@yahoo.com");
+		mejl.add("mail18@yahoo.com");
+		mejl.add("mail19@yahoo.com");
+		mejl.add("mail20@yahoo.com");
+		
+		System.out.println(mejl);
+	}
+
+}

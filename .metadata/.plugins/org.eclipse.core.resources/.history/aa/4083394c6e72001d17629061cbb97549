@@ -1,0 +1,21 @@
+package zadaca9;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Fakultet> fakulteti = new ArrayList<Fakultet>();
+		
+		Fakultet fakultet1 = new Fakultet("FIKT",2,200);
+		Fakultet fakultet2 = new Fakultet("PFB",4,250);
+		Fakultet fakultet3 = new Fakultet("FINKI",3,500);
+		Fakultet fakultet4 = new Fakultet("EF-Prilep",4,300);
+		Fakultet fakultet5 = new Fakultet("TFB",2,250);
+		
+		System.out.println(fakulteti);
+	}
+
+}

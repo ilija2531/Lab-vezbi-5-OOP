@@ -1,0 +1,22 @@
+package zadaca7;
+import java.text.DecimalFormat;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> mejl = new ArrayList<>();
+		DecimalFormat df = new DecimalFormat("00");
+		for (int i = 1; i<=20;i++) {
+			mejl.add("mail" + df.format(i) + "@yahoo.com");
+		}
+		
+		
+		
+		System.out.println(mejl);
+	}
+
+}

@@ -1,0 +1,14 @@
+package zadaca9;
+
+public class Fakultet {
+	public String ime;
+	public int brsmerovi;
+	public int studenti;
+	
+	public Fakultet(String ime,int brsmerovi, int studenti) {
+		this.ime = ime;
+		this.brsmerovi = brsmerovi;
+		this.studenti = studenti;
+		
+	}
+}
